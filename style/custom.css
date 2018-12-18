@@ -1,0 +1,78 @@
+/*
+	INICIO DE SESION
+*/
+.page-login-main {
+	background-color: #600038 !important;
+}
+#loginbtn {
+    background-color: #D6DBCB !important;
+    border-color: #D6DBCB !important;
+    color: #333333 !important;
+}
+.page-login-main h3,
+.page-login-main .page-copyright {
+	color: #FFFFFF !important;
+}
+.page-login-main form a {
+	color: #D6DBCB !important;
+}
+@media (min-width: 767px) {
+    #page-login-index .page-login-main {
+        padding: 40px 60px 180px !important;
+    }
+    .page-login-main .brand-img {
+        width: 50% !important;
+    }
+}
+
+
+/*
+	BARRA DE NAVEGACION
+*/
+.site-navbar.navbar-fixed-top, .navbar-container.container-fluid {
+    background-color: #9E005D !important;
+}
+/* color de link */
+.navbar-container.container-fluid a.nav-link {
+    color: #FFFFFF !important;
+}
+
+
+/*
+	BARRA LATERAL
+*/
+/* link */
+.site-menu-item a {
+    color: #FFFFFF !important;
+}
+
+.site-menubar {
+    background-color: #600038 !important;
+}
+
+.site-menu > .site-menu-item.active {
+    background-color: #600038 !important;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+/*
+	FOOTER
+*/
+footer.site-footer {
+	background-color: #21292E !important;
+}
+footer.site-footer a {
+    color: #76838F !important;
+}
+footer.site-footer a .icon {
+	color: #FFFFFF !important;
+}
+
+
+/*
+	Para eliminar el enlace de Archivos Privados del lado izquierdo de navegación
+*/
+.site-menu li a[data-key=privatefiles] {
+    display:none;
+}
